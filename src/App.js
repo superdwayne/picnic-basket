@@ -46,7 +46,7 @@ function App() {
       <form method="post" action={Server} encType="application/json">
         <input type="text" id="fname" name="fname" placeholder="Join our waiting list" />
         </form>
-       {isTabletOrMobile && <img src="http://dwaynep-marshall.co.uk/qrcode.png" className="qrcode" alt="QR code" /> }  
+       {isTabletOrMobile && <img src="https://cdn-static.farfetch-contents.com/content/UP/EXPERIENCE/Metaverse/qrcode.png" className="qrcode" alt="QR code" /> }  
       </section>
     </div>
   );
